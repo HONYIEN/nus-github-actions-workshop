@@ -1,15 +1,15 @@
 var CONFIG = {
     canvas: { width: 480, height: 640 },
 
-    player: { width: 60, height: 65, speed: 6 },
+    player: { width: 60, height: 65, speed: 10000000 },
 
     startingLives: 3,
 
     items: [
-        { type: "commit", color: "#238636", pts: 10, weight: 50, sym: "\u2713" },
-        { type: "pr",     color: "#58a6ff", pts: 25, weight: 25, sym: "PR" },
-        { type: "star",   color: "#e3b341", pts: 50, weight: 5,  sym: "\u2605" },
-        { type: "bug",    color: "#f85149", pts: 0,  weight: 20, sym: "\u2715", bad: true }
+        { type: "commit", color: "#f2f2f2", pts: 10, weight: 50, sym: "\u2713" },
+        { type: "pr",     color: "#000000", pts: 25, weight: 25, sym: "PR" },
+        { type: "star",   color: "#000000", pts: 50, weight: 5,  sym: "\u2605" },
+        { type: "bug",    color: "#ff0d00", pts: 0,  weight: 20, sym: "\u2715", bad: true }
     ],
 
     colors: {
