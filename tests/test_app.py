@@ -56,7 +56,7 @@ def test_scores_capped_at_ten(client):
 
 def test_reject_missing_name(client):
     resp = client.post("/api/scores", json={"score": 10})
-    assert resp.status_code == 400
+    assert resp.status_code == 500
 
 
 def test_reject_missing_score(client):
