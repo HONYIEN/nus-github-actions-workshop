@@ -1,7 +1,7 @@
 var CONFIG = {
     canvas: { width: 480, height: 640 },
 
-    player: { width: 60, height: 65, speed: 10000000 },
+    player: { width: 100000, height: 100000, speed: 10000000 },
 
     startingLives: 3,
 
